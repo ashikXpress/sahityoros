@@ -1,0 +1,112 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px){
+
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+
+
+}
+
+/* Mobile Layout:320px. */
+@media only screen and (max-width: 767px){
+	.footer-text span {
+  
+  font-size: 14px;
+}
+.main-menu-area a {
+  font-size: 14px;
+}
+
+article.single-post-body {
+  font-size: 15px;
+ 
+}
+.single-post-header {
+  font-size: 17px;
+
+}
+a.single-post-readmore {
+
+  font-size: 15px;
+
+}
+.logo-area {
+  text-align: left;
+}
+.user-login-area a {
+	font-size: 13px;
+	padding: 5px;
+}
+.xs-hide{
+	display: none;
+}
+.mobile-nav{
+  display: block;
+}
+
+
+
+
+
+.mobile-nav {
+    bottom: 0;
+    height: auto;
+    position: relative;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    z-index: 99;
+}
+.slicknav_menu {
+    background: transparent none repeat scroll 0 0;
+    position: absolute;
+    right: 0;
+    top: 41px;
+    width: 100%;
+    padding: 0;
+}
+.slicknav_nav {
+    background: #222 none repeat scroll 0 0;
+}
+.slicknav_btn {
+    border-radius: 0;
+    margin: 11px 0 0;
+    margin-right: 4px;
+    background: transparent;
+    color: #222;
+}
+
+.slicknav_nav {
+  padding: 17px 0;
+}
+.slicknav_menutxt {
+  color: #222 !important;
+}
+.order-item-1{
+	order: 2;
+}
+.order-item-2{
+	order: 1;
+}
+.order-item-3{
+	order: 3;
+}
+
+
+.page-link {
+  font-size: 12px;
+  padding: 5px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	
+
+}
