@@ -97,20 +97,10 @@ footer {
   color: #000;
   margin-left: 12px;
   margin-right: 3px;
-  padding: 4px 0;
+  padding: 4px;
   position: relative;
 }
 
-.main-menu-area a:hover:before {
-    background: #000 none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    transition: 0.6s;
-}
 
 .main-menu-area a:hover{
 	text-decoration: none;
@@ -260,4 +250,22 @@ button:hover {
 .login-btn.bg-btn-same {
     color: #fff;
     text-decoration: none;
+}
+
+.main-menu-area a:hover:before{
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    transition: 0.6s;
+}
+
+
+#nav a.active{
+   color: #ffffff;
+    background-color: #603813;
+
 }

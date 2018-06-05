@@ -30,10 +30,10 @@
             <div class="col-md-10 col-sm-10 text-right xs-hide">
                 <div class="main-menu-area">
                     <ul id="nav">
-                        <li><a href="{{route('formPost')}}">পোষ্ট করুন</a></li>
-                        <li><a href="{{route('formManuscript')}}">বই প্রকাশের জন্য পাণ্ডুলিপি জমা দিন</a></li>
+                        <li><a class="@if($uril=='createPost') active @endif" href="{{url('createPost')}}">পোষ্ট করুন</a></li>
+                        <li><a class="@if($uril=='createManuscript') active @endif" href="{{route('createManuscript')}}">বই প্রকাশের জন্য পাণ্ডুলিপি জমা দিন</a></li>
 
-                        <li><a href="{{route('showDocumentForm')}}">{{optional($selectedCategory)->month_category.'  '}}সংখ্যার লেখা জমা দিন</a></li>
+                        <li><a class="@if($uril=='monthWiseDoc') active @endif" href="{{url('monthWiseDoc')}}">{{optional($selectedCategory)->month_category.'  '}}সংখ্যার লেখা জমা দিন</a></li>
 
                         <li><a href="">শ্রাবন সংখ্যার সূচীপত্র</a></li>
 
